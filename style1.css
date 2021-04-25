@@ -1,0 +1,24 @@
+.note {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+textarea {
+    display: inline-block;
+    height: 170px;
+    width: 370px;
+    border: 0px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .note,
+    textarea {
+        width: 280px;
+    }
+}
